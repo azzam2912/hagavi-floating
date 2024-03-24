@@ -8,7 +8,6 @@ body, html {
 
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
   position: relative;
-  opacity: 0.7;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -18,7 +17,6 @@ body, html {
   background-image: url("lana1.jpeg");
   place-content: center;
   min-height: 100%;
-  opacity: 1;
 }
 
 .bgimg-2 {
@@ -35,7 +33,6 @@ body, html {
 .bgimg-4 {
   background-image: url("lana5.jpeg");
   min-height: 100%;
-  opacity: 1;
 }
 
 
