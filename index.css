@@ -13,12 +13,12 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 .bgimg-1 {
   background-image: url("lana1.jpeg");
   place-content: center;
   min-height: 100%;
+  opacity: 1;
 }
 
 .bgimg-2 {
@@ -29,12 +29,13 @@ body, html {
 .bgimg-3 {
   background-image: url("lana2.jpeg");
   min-height: 400px;
+  background-size: cover;
 }
 
 .bgimg-4 {
-  background-image: url("lana4.jpeg");
+  background-image: url("lana5.jpeg");
   min-height: 100%;
-  opacity: 0.9;
+  opacity: 1;
 }
 
 
@@ -67,6 +68,27 @@ h5 {
   letter-spacing: 1px;
   font: 15px "Lato", sans-serif;
   color: #111;
+}
+
+.twitter-section {
+	color:#ddd;
+	background-color:#282E34;
+	text-align:center;
+	padding:50px 80px;
+	text-align: center;
+	display: flex;
+	place-content: center;
+}
+
+@media only screen and (min-width: 1000px) {
+	body, html {
+		max-width: calc(800px);
+		margin: auto;
+		justify-content: center;
+	}
+	.bgimg-1, .bgimg-2, .bgimg-4 {
+		background-size: contain;
+	}
 }
 
 /* Turn off parallax scrolling for tablets and phones
