@@ -10,10 +10,7 @@ const update = () => {
 
 function getOffset(el) {
   const rect = el.getBoundingClientRect();
-  console.log(rect.top)
-  console.log("yihaw " + window.scrollY)
-  console.log("uhhhh " + CONFIG.y + window.scrollY)
-  var pos = -50 + window.scrollY;
+  var pos = 0.75*(-50 + window.scrollY);
   return {
     left: rect.left + window.scrollX,
     top: pos,
