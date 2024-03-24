@@ -14,19 +14,17 @@ body, html {
 }
 .bgimg-1 {
   background-image: url("lana1.jpeg");
-  place-content: center;
   min-height: 80%;
 }
 
 .bgimg-2 {
   background-image: url("aurhel_alana.jpg");
-  min-height: 400px;
+  min-height: 600px;
 }
 
 .bgimg-3 {
   background-image: url("lana2.jpeg");
   min-height: 400px;
-  background-size: cover;
 }
 
 .bgimg-4 {
@@ -74,10 +72,11 @@ p {
 	color:#ddd;
 	background-color:#282E34;
 	text-align:center;
-	padding:50px 80px;
-	text-align: center;
 	display: flex;
 	place-content: center;
+	min-width: 100%;
+	min-height: auto;
+	top: 20%;
 }
 
 @media only screen and (min-width: 1000px) {
