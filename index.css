@@ -1,7 +1,6 @@
 body, html {
   height: 100%;
-  margin: 5%;
-  margin-top: 0;
+  margin: 3%;
   font: 400 15px/1.8 "Lato", sans-serif;
   color: #777;
 }
@@ -16,7 +15,7 @@ body, html {
 .bgimg-1 {
   background-image: url("lana1.jpeg");
   place-content: center;
-  min-height: 100%;
+  min-height: 80%;
 }
 
 .bgimg-2 {
@@ -32,7 +31,7 @@ body, html {
 
 .bgimg-4 {
   background-image: url("lana5.jpeg");
-  min-height: 100%;
+  min-height: 80%;
 }
 
 
@@ -57,14 +56,18 @@ body, html {
 h3 {
   letter-spacing: 5px;
   text-transform: uppercase;
-  font: 20px "Lato", sans-serif;
+  font: 2rem "Lato", sans-serif;
   color: #111;
 }
 
 h5 {
   letter-spacing: 1px;
-  font: 15px "Lato", sans-serif;
+  font: 1.5rem "Lato", sans-serif;
   color: #111;
+}
+
+p {
+	font-size: 1.5rem;
 }
 
 .twitter-section {
